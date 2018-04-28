@@ -121,7 +121,7 @@ contract TokenTrader is owned {
         UpdateEvent();
     }
 
-    //user buys token with ETH (fallback function)
+    //user buys token with ETH
     function buy() payable {
         id+=1;
         User[id] = Userdata(msg.sender, msg.value);
@@ -171,7 +171,7 @@ contract TokenTrader is owned {
         User[_id].buyer.send(User[_id].price_in_wei);
     }
 
-    // sending ETH to contract sells ETH to user
+    // sending ETH to contract sells ETH to user (fallback function)
     function () payable {
         buy();
     }
