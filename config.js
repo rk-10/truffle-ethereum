@@ -3,10 +3,10 @@
  */
 
 module.exports = {
-    asset : "0x879166e72813d539f1135b1b67e24928e3d33659",
+    asset : "",
     buyPrice: 0,
-    sellPrice: 10000000000000000,
-    units: 5,
+    sellPrice: 0,
+    units: 0,
     selling: true,
     buying: true,
     ganacheMnemonic : "lounge first learn cheap tuition tape regret swarm sock blanket borrow quarter",
