@@ -23,7 +23,7 @@ Deployement of an escrow Smart Contract using truffle framework. This smart cont
    * mnemonic of your wallet from which you will deploy the contract (test or hdwallet)
    * URI for other notwork if you want to deploy on mainet or rinkeby or ropsten networks.
 2. Run `$ truffle compile` from root of repo. This will compile the contracts.
-3. Run `$ truffle migrate --network test` (we can specify which network we want our contract to be deployed at)
+3. Run `$ truffle migrate --network test` (we can specify which network we want our contract to be deployed at. Can be set in    `truffle.js` file)
 
 # Working
 1. One simply has to send ether to the contract address to recieve tokens.
